@@ -17,7 +17,7 @@ public class Student {
 
     public Student(String nm, LocalDate DOB, int identification) {
 
-        this.name = nm
+        this.name = nm;
         this.dateOfBirth = DOB;
         this.id = identification;
         this.age = calculateAge();
