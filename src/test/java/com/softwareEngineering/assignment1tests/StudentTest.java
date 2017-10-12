@@ -33,8 +33,8 @@ public class StudentTest {
         Student student = new Student("Brian", dob, 123456);
 
         String expectedName = "Brian";
-        String expectedUsername = "Brian19";
-        int expectedAge = 19;
+        String expectedUsername = "Brian20";
+        int expectedAge = 20;
         int expectedID = 123456;
         LocalDate expectedDOB = new LocalDate(1997,10,4);
 
