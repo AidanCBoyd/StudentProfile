@@ -31,6 +31,8 @@ public class Student {
      * @return username
      */
     private String getUsername(String name, int age) {
+
+        //The id wil be in the form <name><age> i.e. Aidan20
         StringBuilder tempName =  new StringBuilder(name);
 
         tempName.append(age);
@@ -38,6 +40,8 @@ public class Student {
         String uName = tempName.toString();
 
         //If there are any spaces, remove those spaces
+        // i.e. if they entered Aidan Boyd as the name this will be changed
+        // to AidanBoyd
         if (uName.contains(" ")) {
             uName = uName.replaceAll("\\s+","");
         }
